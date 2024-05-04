@@ -1,0 +1,146 @@
+:root{
+    --primero: #8bc34a;
+    --segundo: #03a9f4;
+    --tercero: #ab47bc;
+    --cuarto: #ffb300;
+    --gris: #ecf0f5;
+    --azul: #25476a;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.elfooter {
+    background-color: #242424;
+}
+
+.logos-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--cuarto);
+}
+
+a:hover{
+    color: orangered;
+}
+
+h1{
+    color: white;
+}
+
+.btn-modificar{
+    background-color: #6610f2;
+    color: white;
+}
+
+.btn-modificar:hover{
+    background-color: #520dc2;
+    color: white;
+}
+
+/* Ayuda */
+
+.list-group a {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.list-group .active a {
+    color: white;
+}
+
+.textoAyuda{
+    background-color:#242424;
+    color: white;
+}
+
+.cuerpoAyuda{
+    background-color: #ffffff;
+}
+
+.bg-primary{
+    background-color: #212529 !important;
+}
+
+.btn-success{
+    color:#242424;
+    background-color: #ffc700;
+    border-color:#242424 ;
+    font-weight: bold;
+}
+
+.btn-success:hover{
+    background-color: #d3aa14;
+}
+
+.form-check-input:checked[type=checkbox]{
+    background-color: #DC4555;
+    border-color:#242424;
+}
+
+.btn-primary{
+    color:#242424;
+    background-color: #ffc700;
+    border-color: #242424;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color:#d3aa14;
+}
+.form-select option:hover{
+    color:#242424;
+    background-color: #ffc700;
+}
+.btn-secondary{
+    background-color:#DC4555;
+    border-color: #DC4555
+}
+.btn-secondary:hover{
+    background-color:#bd3e4b;
+}
+.page-link{
+    color:#242424
+}
+.page-item.active .page-link {
+    color: #242424;
+    background-color: #ffc700;
+    border-color: #242424;
+}
+.page-item.active .page-link:hover {
+    background-color:#d3aa14;
+}
+
+.btn-secondary{
+    background-color: #DC4555;
+    border-color: #dc4555; 
+}
+.list-group-item.active{
+    background-color: #ffc700;
+    border-color: #242424;
+    color: #242424;
+}
+
+.required {
+    color: red;
+}
